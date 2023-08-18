@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0%;
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100vw;
+    height:100vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 200px 1fr 100px;
+    
+
+}
+
+.container > div{
+    border: 1px solid red;
+   
+}
+
+.header{
+    display: grid;
+    grid-column: 1/5;
+    background-color: green;
+}
+
+.main{
+    display: grid;
+    grid-column: 1/4;
+    background-color: yellow;
+}
+
+.sidebar{
+    display: grid;
+    grid-column: 4/5;
+    background-color: red;
+}
+
+.footer{
+    display: grid;
+    grid-column: 1/5;
+    background-color: blue;
+}
+
+
+
